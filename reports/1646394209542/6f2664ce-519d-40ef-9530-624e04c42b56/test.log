@@ -1,0 +1,101 @@
+[2022-03-04 11:44:05] [25] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-04 11:44:05] [25] [INFO] TEST [Mobile test Carina Page on Android  - validationOnUiElementsPageTest] STARTED at [13:44:05 2022-03-04]
+[2022-03-04 11:44:15] [25] [INFO] PASS: element 'nextBtn' is clicked.
+[2022-03-04 11:44:17] [25] [INFO] PASS: keys cleared in element 'nameInputField'.
+[2022-03-04 11:44:20] [25] [INFO] PASS: keys 'qwerty' are sent to element 'nameInputField'.
+[2022-03-04 11:44:22] [25] [INFO] PASS: keys cleared in element 'passwordInputField'.
+[2022-03-04 11:44:24] [25] [INFO] PASS: keys '123456' are sent to element 'passwordInputField'.
+[2022-03-04 11:44:25] [25] [INFO] PASS: element 'maleRadioBtn' is clicked.
+[2022-03-04 11:44:27] [25] [INFO] PASS: element 'privacyPolicyCheckbox' is clicked.
+[2022-03-04 11:44:28] [25] [INFO] PASS: element 'loginBtn' is clicked.
+[2022-03-04 11:44:30] [25] [INFO] PASS: element 'leftMenuButton' is clicked.
+[2022-03-04 11:44:34] [25] [INFO] PASS: element 'uiElementsLink' is clicked.
+[2022-03-04 11:44:35] [25] [INFO] PASS: keys cleared in element 'textField'.
+[2022-03-04 11:44:36] [25] [INFO] PASS: keys 'no war' are sent to element 'textField'.
+[2022-03-04 11:44:37] [25] [INFO] PASS: keys cleared in element 'emailField'.
+[2022-03-04 11:44:38] [25] [INFO] PASS: keys 'nowar@email.com' are sent to element 'emailField'.
+[2022-03-04 11:44:41] [25] [INFO] swiping to element: femaleRadioButton (By.id: com.solvd.carinademoapplication:id/radioButton3)
+[2022-03-04 11:44:42] [25] [INFO] Swipe was executed. Attempts remain: 9
+[2022-03-04 11:44:46] [25] [INFO] Swipe was executed. Attempts remain: 8
+[2022-03-04 11:44:46] [25] [INFO] Result: true
+[2022-03-04 11:44:46] [25] [INFO] PASS: keys cleared in element 'dateField'.
+[2022-03-04 11:44:47] [25] [INFO] PASS: keys '28/02/2022' are sent to element 'dateField'.
+[2022-03-04 11:44:49] [25] [INFO] PASS: element 'checkBoxButton' is clicked.
+[2022-03-04 11:44:51] [25] [INFO] PASS: element 'femaleRadioButton' is clicked.
+[2022-03-04 11:45:12] [25] [ERROR] FAIL: click - waitCondition for element 'otherRadioButton (By.id: com.solvd.carinademoapplication:id/radioButton5)' not satisfied!
+[2022-03-04 11:45:13] [25] [ERROR] TEST [Mobile test Carina Page on Android  - validationOnUiElementsPageTest] FAILED at [13:45:13 2022-03-04] - An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ihor', ip: 'fe80:0:0:0:10d7:67c1:1883:8b55%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6', java.version: '11.0.14.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: https://qaprosoft.s3-us-wes..., appPackage: com.solvd.carinademoapplica..., automationName: uiautomator2, databaseEnabled: false, desired: {app: https://qaprosoft.s3-us-wes..., automationName: uiautomator2, deviceName: Nexus 5, deviceType: phone, language: en, locale: US, platformName: android}, deviceApiLevel: 32, deviceManufacturer: Google, deviceModel: sdk_gphone64_x86_64, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceType: phone, deviceUDID: emulator-5554, javascriptEnabled: true, language: en, locale: US, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: ANDROID, platformVersion: 12, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1800, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 17088085-4118-494c-8c05-624f3d1cf6fe
+*** Element info: {Using=id, value=com.solvd.carinademoapplication:id/radioButton5}
+
+jdk.internal.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:153)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+org.openqa.selenium.remote.RemoteWebDriver.findElementById$original$dPV0CAXz(RemoteWebDriver.java:372)
+org.openqa.selenium.remote.RemoteWebDriver.findElementById$original$dPV0CAXz$accessor$G8Uv4MmZ(RemoteWebDriver.java)
+org.openqa.selenium.remote.RemoteWebDriver$auxiliary$a5WXEbSg.call(Unknown Source)
+com.zebrunner.agent.core.webdriver.PublicMethodInvocationInterceptor.onPublicMethodInvocation(PublicMethodInvocationInterceptor.java:18)
+org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java)
+io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+org.openqa.selenium.By$ById.findElement(By.java:188)
+org.openqa.selenium.remote.RemoteWebDriver.findElement$original$dPV0CAXz(RemoteWebDriver.java:315)
+org.openqa.selenium.remote.RemoteWebDriver.findElement$original$dPV0CAXz$accessor$G8Uv4MmZ(RemoteWebDriver.java)
+org.openqa.selenium.remote.RemoteWebDriver$auxiliary$6yS2DAW7.call(Unknown Source)
+com.zebrunner.agent.core.webdriver.PublicMethodInvocationInterceptor.onPublicMethodInvocation(PublicMethodInvocationInterceptor.java:18)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java)
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+jdk.internal.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+io.appium.java_client.android.$Proxy32.findElement(Unknown Source)
+org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+com.qaprosoft.carina.core.foundation.webdriver.locator.ExtendedElementLocator.findElement(ExtendedElementLocator.java:91)
+org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+com.sun.proxy.$Proxy36.click(Unknown Source)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement$1.doClick(ExtendedWebElement.java:1382)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.executeAction(ExtendedWebElement.java:1255)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.overrideAction(ExtendedWebElement.java:1376)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1361)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1339)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:458)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:447)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:438)
+com.qaprosoft.carina.igor.android.CarinaUIElementsPage.clickOnOtherRadioButton(CarinaUIElementsPage.java:93)
+com.qaprosoft.carina.igor.CarinaPageTest.validationOnUiElementsPageTest(CarinaPageTest.java:81)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:829)

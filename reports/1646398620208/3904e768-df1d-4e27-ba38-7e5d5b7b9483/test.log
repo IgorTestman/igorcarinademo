@@ -1,0 +1,11 @@
+[2022-03-04 12:59:26] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-04 12:59:26] [1] [INFO] TEST [carina-demo - validCredentialsTest] STARTED at [14:59:26 2022-03-04]
+[2022-03-04 12:59:38] [1] [INFO] PASS: element 'nextBtn' is clicked.
+[2022-03-04 12:59:40] [1] [INFO] PASS: keys cleared in element 'nameInputField'.
+[2022-03-04 12:59:41] [1] [INFO] PASS: keys 'qwerty' are sent to element 'nameInputField'.
+[2022-03-04 12:59:43] [1] [INFO] PASS: keys cleared in element 'passwordInputField'.
+[2022-03-04 12:59:44] [1] [INFO] PASS: keys '123456' are sent to element 'passwordInputField'.
+[2022-03-04 12:59:46] [1] [INFO] PASS: element 'maleRadioBtn' is clicked.
+[2022-03-04 12:59:47] [1] [INFO] PASS: element 'privacyPolicyCheckbox' is clicked.
+[2022-03-04 12:59:49] [1] [INFO] PASS: element 'loginBtn' is clicked.
+[2022-03-04 12:59:53] [1] [INFO] TEST [carina-demo - validCredentialsTest] PASSED at [14:59:53 2022-03-04]

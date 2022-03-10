@@ -1,0 +1,4 @@
+[2022-03-04 12:59:53] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-04 12:59:53] [1] [INFO] TEST [carina-demo - validationUiElementsOnLoginPageTest] STARTED at [14:59:53 2022-03-04]
+[2022-03-04 01:00:04] [1] [INFO] PASS: element 'nextBtn' is clicked.
+[2022-03-04 01:00:07] [1] [INFO] TEST [carina-demo - validationUiElementsOnLoginPageTest] PASSED at [15:00:07 2022-03-04]

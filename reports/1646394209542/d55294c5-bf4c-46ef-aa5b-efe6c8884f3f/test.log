@@ -1,0 +1,31 @@
+[2022-03-04 11:45:13] [25] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-04 11:45:13] [25] [INFO] TEST [Mobile test Carina Page on Android  - validationOnWebViewPageTest] STARTED at [13:45:13 2022-03-04]
+[2022-03-04 11:46:01] [25] [INFO] PASS: element 'nextBtn' is clicked.
+[2022-03-04 11:46:03] [25] [INFO] PASS: keys cleared in element 'nameInputField'.
+[2022-03-04 11:46:04] [25] [INFO] PASS: keys 'qwerty' are sent to element 'nameInputField'.
+[2022-03-04 11:46:06] [25] [INFO] PASS: keys cleared in element 'passwordInputField'.
+[2022-03-04 11:46:07] [25] [INFO] PASS: keys '123456' are sent to element 'passwordInputField'.
+[2022-03-04 11:46:08] [25] [INFO] PASS: element 'maleRadioBtn' is clicked.
+[2022-03-04 11:46:10] [25] [INFO] PASS: element 'privacyPolicyCheckbox' is clicked.
+[2022-03-04 11:46:11] [25] [INFO] PASS: element 'loginBtn' is clicked.
+[2022-03-04 11:46:13] [25] [INFO] PASS: element 'leftMenuButton' is clicked.
+[2022-03-04 11:46:17] [25] [INFO] PASS: element 'webViewLink' is clicked.
+[2022-03-04 11:46:21] [25] [INFO] PASS: element 'burgerMenuBtn' is clicked.
+[2022-03-04 11:46:23] [25] [INFO] PASS: element 'burgerMenuBtn' is clicked.
+[2022-03-04 11:46:26] [25] [INFO] swiping to element: readOnGitHubBtn (By.xpath: //android.view.View[@content-desc='Read on GitHub'])
+[2022-03-04 11:46:28] [25] [INFO] Swipe was executed. Attempts remain: 19
+[2022-03-04 11:46:32] [25] [INFO] Swipe was executed. Attempts remain: 18
+[2022-03-04 11:46:36] [25] [INFO] Swipe was executed. Attempts remain: 17
+[2022-03-04 11:46:40] [25] [INFO] Swipe was executed. Attempts remain: 16
+[2022-03-04 11:46:44] [25] [INFO] Swipe was executed. Attempts remain: 15
+[2022-03-04 11:46:48] [25] [INFO] Swipe was executed. Attempts remain: 14
+[2022-03-04 11:46:52] [25] [INFO] Swipe was executed. Attempts remain: 13
+[2022-03-04 11:46:56] [25] [INFO] Swipe was executed. Attempts remain: 12
+[2022-03-04 11:46:59] [25] [INFO] Swipe was executed. Attempts remain: 11
+[2022-03-04 11:47:03] [25] [INFO] Swipe was executed. Attempts remain: 10
+[2022-03-04 11:47:07] [25] [INFO] Swipe was executed. Attempts remain: 9
+[2022-03-04 11:47:12] [25] [INFO] Swipe was executed. Attempts remain: 8
+[2022-03-04 11:47:17] [25] [INFO] Swipe was executed. Attempts remain: 7
+[2022-03-04 11:47:21] [25] [INFO] Swipe was executed. Attempts remain: 6
+[2022-03-04 11:47:21] [25] [INFO] Result: true
+[2022-03-04 11:47:22] [25] [INFO] TEST [Mobile test Carina Page on Android  - validationOnWebViewPageTest] PASSED at [13:47:22 2022-03-04]

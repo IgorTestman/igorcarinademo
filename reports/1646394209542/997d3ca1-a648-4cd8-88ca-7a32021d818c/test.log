@@ -1,0 +1,12 @@
+[2022-03-04 11:47:55] [25] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-04 11:47:55] [25] [INFO] TEST [Mobile test Carina Page on Android  - validationUiElementsOnUserProfilePageTest] STARTED at [13:47:55 2022-03-04]
+[2022-03-04 11:48:06] [25] [INFO] PASS: element 'nextBtn' is clicked.
+[2022-03-04 11:48:08] [25] [INFO] PASS: keys cleared in element 'nameInputField'.
+[2022-03-04 11:48:10] [25] [INFO] PASS: keys 'qwerty' are sent to element 'nameInputField'.
+[2022-03-04 11:48:11] [25] [INFO] PASS: keys cleared in element 'passwordInputField'.
+[2022-03-04 11:48:13] [25] [INFO] PASS: keys '123456' are sent to element 'passwordInputField'.
+[2022-03-04 11:48:15] [25] [INFO] PASS: element 'maleRadioBtn' is clicked.
+[2022-03-04 11:48:16] [25] [INFO] PASS: element 'privacyPolicyCheckbox' is clicked.
+[2022-03-04 11:48:18] [25] [INFO] PASS: element 'loginBtn' is clicked.
+[2022-03-04 11:48:25] [25] [INFO] PASS: element 'leftMenuButton' is clicked.
+[2022-03-04 11:48:27] [25] [INFO] TEST [Mobile test Carina Page on Android  - validationUiElementsOnUserProfilePageTest] PASSED at [13:48:27 2022-03-04]

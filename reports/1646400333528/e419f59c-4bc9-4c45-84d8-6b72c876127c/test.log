@@ -1,0 +1,31 @@
+[2022-03-04 01:25:34] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-04 01:25:34] [1] [INFO] TEST [carina-demo - validationOnUiElementsPageTest] STARTED at [15:25:34 2022-03-04]
+[2022-03-04 01:25:47] [1] [INFO] PASS: element 'nextBtn' is clicked.
+[2022-03-04 01:25:50] [1] [INFO] PASS: keys cleared in element 'nameInputField'.
+[2022-03-04 01:25:52] [1] [INFO] PASS: keys 'qwerty' are sent to element 'nameInputField'.
+[2022-03-04 01:25:54] [1] [INFO] PASS: keys cleared in element 'passwordInputField'.
+[2022-03-04 01:25:56] [1] [INFO] PASS: keys '123456' are sent to element 'passwordInputField'.
+[2022-03-04 01:25:57] [1] [INFO] PASS: element 'maleRadioBtn' is clicked.
+[2022-03-04 01:25:59] [1] [INFO] PASS: element 'privacyPolicyCheckbox' is clicked.
+[2022-03-04 01:26:00] [1] [INFO] PASS: element 'loginBtn' is clicked.
+[2022-03-04 01:26:03] [1] [INFO] PASS: element 'leftMenuButton' is clicked.
+[2022-03-04 01:26:07] [1] [INFO] PASS: element 'uiElementsLink' is clicked.
+[2022-03-04 01:26:08] [1] [INFO] PASS: keys cleared in element 'textField'.
+[2022-03-04 01:26:09] [1] [INFO] PASS: keys 'no war' are sent to element 'textField'.
+[2022-03-04 01:26:11] [1] [INFO] PASS: keys cleared in element 'emailField'.
+[2022-03-04 01:26:11] [1] [INFO] PASS: keys 'nowar@email.com' are sent to element 'emailField'.
+[2022-03-04 01:26:14] [1] [INFO] swiping to element: femaleRadioButton (By.id: com.solvd.carinademoapplication:id/radioButton3)
+[2022-03-04 01:26:15] [1] [INFO] Swipe was executed. Attempts remain: 9
+[2022-03-04 01:26:19] [1] [INFO] Swipe was executed. Attempts remain: 8
+[2022-03-04 01:26:19] [1] [INFO] Result: true
+[2022-03-04 01:26:19] [1] [INFO] PASS: keys cleared in element 'dateField'.
+[2022-03-04 01:26:20] [1] [INFO] PASS: keys '28/02/2022' are sent to element 'dateField'.
+[2022-03-04 01:26:21] [1] [INFO] PASS: element 'checkBoxButton' is clicked.
+[2022-03-04 01:26:23] [1] [INFO] PASS: element 'femaleRadioButton' is clicked.
+[2022-03-04 01:26:24] [1] [INFO] PASS: element 'otherRadioButton' is clicked.
+[2022-03-04 01:26:26] [1] [INFO] swiping to element: switchBtn (By.id: com.solvd.carinademoapplication:id/switch1)
+[2022-03-04 01:26:38] [1] [INFO] Swipe was executed. Attempts remain: 9
+[2022-03-04 01:26:53] [1] [INFO] Swipe was executed. Attempts remain: 8
+[2022-03-04 01:27:06] [1] [INFO] Swipe was executed. Attempts remain: 7
+[2022-03-04 01:27:06] [1] [INFO] Result: true
+[2022-03-04 01:27:07] [1] [INFO] TEST [carina-demo - validationOnUiElementsPageTest] PASSED at [15:27:07 2022-03-04]

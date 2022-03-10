@@ -1,0 +1,13 @@
+[2022-03-04 12:28:01] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-04 12:28:01] [1] [INFO] TEST [carina-demo - validationUiElementsOnChartPageTest] STARTED at [14:28:01 2022-03-04]
+[2022-03-04 12:28:14] [1] [INFO] PASS: element 'nextBtn' is clicked.
+[2022-03-04 12:28:15] [1] [INFO] PASS: keys cleared in element 'nameInputField'.
+[2022-03-04 12:28:17] [1] [INFO] PASS: keys 'qwerty' are sent to element 'nameInputField'.
+[2022-03-04 12:28:20] [1] [INFO] PASS: keys cleared in element 'passwordInputField'.
+[2022-03-04 12:28:22] [1] [INFO] PASS: keys '123456' are sent to element 'passwordInputField'.
+[2022-03-04 12:28:24] [1] [INFO] PASS: element 'maleRadioBtn' is clicked.
+[2022-03-04 12:28:25] [1] [INFO] PASS: element 'privacyPolicyCheckbox' is clicked.
+[2022-03-04 12:28:27] [1] [INFO] PASS: element 'loginBtn' is clicked.
+[2022-03-04 12:28:28] [1] [INFO] PASS: element 'leftMenuButton' is clicked.
+[2022-03-04 12:28:33] [1] [INFO] PASS: element 'chartsLink' is clicked.
+[2022-03-04 12:28:36] [1] [INFO] TEST [carina-demo - validationUiElementsOnChartPageTest] PASSED at [14:28:36 2022-03-04]

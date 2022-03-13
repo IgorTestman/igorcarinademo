@@ -1,4 +1,0 @@
-[2022-03-13 09:17:22] [18] [WARN] Reporting disabled: using no op test run registrar
-[2022-03-13 09:17:22] [18] [INFO] TEST [Hello World test - helloWorld] STARTED at [23:17:22 2022-03-13]
-[2022-03-13 09:17:22] [18] [INFO] Hello World!
-[2022-03-13 09:17:22] [18] [INFO] TEST [Hello World test - helloWorld] PASSED at [23:17:22 2022-03-13]

@@ -10,9 +10,10 @@ public abstract class StartPageBase extends AbstractPage  {
     }
 
     public abstract LoginPageUiBase clickNextBtn();
+
     public abstract  boolean isNextBtnPresent();
+
     public abstract  boolean isCarinaLogoPresent();
+
     public abstract  String getNextBtnText();
-
-
 }

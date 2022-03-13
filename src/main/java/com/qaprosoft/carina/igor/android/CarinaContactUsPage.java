@@ -3,13 +3,13 @@ package com.qaprosoft.carina.igor.android;
 import com.qaprosoft.carina.core.foundation.utils.factory.DeviceType;
 import com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement;
 import com.qaprosoft.carina.demo.mobile.gui.pages.common.ContactUsPageBase;
-import com.qaprosoft.carina.igor.utils.IConstants;
+import com.qaprosoft.carina.igor.utils.TimeConstants;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 
 
 @DeviceType(pageType = DeviceType.Type.ANDROID_PHONE, parentClass = ContactUsPageBase.class)
-public class CarinaContactUsPage extends ContactUsPageBase implements IConstants {
+public class CarinaContactUsPage extends ContactUsPageBase implements TimeConstants {
 
     @FindBy(xpath = "//input[@name='Email']")
     private ExtendedWebElement emailField;
@@ -55,12 +55,11 @@ public class CarinaContactUsPage extends ContactUsPageBase implements IConstants
 
     @Override
     public boolean isErrorMessagePresent() {
-        return errorLabel.isElementPresent(FIVE_SECONDS);
+        return errorLabel.isElementPresent(THREE_SECONDS);
     }
 
     @Override
     public boolean isRecaptchaPresent() {
-        return recaptcha.isElementPresent(FIVE_SECONDS);
+        return recaptcha.isElementPresent(THREE_SECONDS);
     }
-
 }

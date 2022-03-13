@@ -6,13 +6,14 @@ import com.qaprosoft.carina.core.foundation.utils.ownership.MethodOwner;
 import com.qaprosoft.carina.igor.common.CarinaHomePageBase;
 import com.qaprosoft.carina.igor.common.LoginPageUiBase;
 import com.qaprosoft.carina.igor.common.StartPageBase;
-import com.qaprosoft.carina.igor.utils.IConstants;
+import com.qaprosoft.carina.igor.utils.TextConstants;
+import com.qaprosoft.carina.igor.utils.TimeConstants;
 import com.zebrunner.agent.core.annotation.TestLabel;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class LoginPageTest implements IAbstractTest, IMobileUtils, IConstants {
+public class LoginPageTest implements IAbstractTest, IMobileUtils, TextConstants, TimeConstants {
 
 
     @Test()
@@ -65,7 +66,6 @@ public class LoginPageTest implements IAbstractTest, IMobileUtils, IConstants {
         softAssert.assertTrue(loginPageUiBase.isPasswordFieldBelowLoginBtn(), "Sign Up button is not below password field");
 
         softAssert.assertAll();
-
     }
 
     @Test()
@@ -82,7 +82,6 @@ public class LoginPageTest implements IAbstractTest, IMobileUtils, IConstants {
         loginPageUiBase.checkPrivacyPolicyCheckbox();
         CarinaHomePageBase carinaHomePage = loginPageUiBase.clickSignUpBtn();
         Assert.assertTrue(carinaHomePage.isPageOpened(), "Carina page isn't opened");
-
     }
 
     @Test()
@@ -120,5 +119,6 @@ public class LoginPageTest implements IAbstractTest, IMobileUtils, IConstants {
         Assert.assertTrue(loginPageUiBase.isPageOpened(), "Accept privacy police");
         loginPageUiBase.checkPrivacyPolicyCheckbox();
         CarinaHomePageBase carinaHomePage = loginPageUiBase.clickSignUpBtn();
-        Assert.assertTrue(carinaHomePage.isPageOpened(), "Carina page isn't opened");    }
+        Assert.assertTrue(carinaHomePage.isPageOpened(), "Carina page isn't opened");
+    }
 }

@@ -1,0 +1,14 @@
+[2022-03-13 08:41:29] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-13 08:41:29] [1] [INFO] TEST [igorcarinademo - validationOnUiElementsOnMapPageTest] STARTED at [22:41:29 2022-03-13]
+[2022-03-13 08:41:48] [1] [INFO] PASS: element 'nextBtn' is clicked.
+[2022-03-13 08:41:51] [1] [INFO] PASS: keys cleared in element 'nameInputField'.
+[2022-03-13 08:41:54] [1] [INFO] PASS: keys 'qwerty' are sent to element 'nameInputField'.
+[2022-03-13 08:42:00] [1] [INFO] PASS: keys cleared in element 'passwordInputField'.
+[2022-03-13 08:42:06] [1] [WARN] Unable to capture screenshot during 6 sec!
+[2022-03-13 08:42:08] [1] [INFO] PASS: keys '123456' are sent to element 'passwordInputField'.
+[2022-03-13 08:42:11] [1] [INFO] PASS: element 'maleRadioBtn' is clicked.
+[2022-03-13 08:42:13] [1] [INFO] PASS: element 'privacyPolicyCheckbox' is clicked.
+[2022-03-13 08:42:16] [1] [INFO] PASS: element 'loginBtn' is clicked.
+[2022-03-13 08:42:20] [1] [INFO] PASS: element 'navigateBtn' is clicked.
+[2022-03-13 08:42:23] [1] [INFO] PASS: element 'menuName' is clicked.
+[2022-03-13 08:42:31] [1] [INFO] TEST [igorcarinademo - validationOnUiElementsOnMapPageTest] PASSED at [22:42:31 2022-03-13]

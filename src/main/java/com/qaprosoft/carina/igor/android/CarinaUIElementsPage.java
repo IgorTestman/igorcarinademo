@@ -3,17 +3,20 @@ package com.qaprosoft.carina.igor.android;
 import com.qaprosoft.carina.core.foundation.utils.factory.DeviceType;
 import com.qaprosoft.carina.core.foundation.utils.mobile.IMobileUtils;
 import com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement;
-import com.qaprosoft.carina.demo.mobile.gui.pages.common.UIElementsPageBase;
 import com.qaprosoft.carina.igor.common.CarinaUIElementsPageBase;
-import com.qaprosoft.carina.igor.utils.IConstants;
+import com.qaprosoft.carina.igor.common.ViewBurgerMenuPageBase;
+import com.qaprosoft.carina.igor.utils.TimeConstants;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 
 @DeviceType(pageType = DeviceType.Type.ANDROID_PHONE, parentClass = CarinaUIElementsPageBase.class)
-public class CarinaUIElementsPage extends CarinaUIElementsPageBase implements IConstants, IMobileUtils {
+public class CarinaUIElementsPage extends CarinaUIElementsPageBase implements TimeConstants, IMobileUtils {
 
     @FindBy(id = "editText")
     private ExtendedWebElement textField;
+
+    @FindBy(xpath = "//android.widget.ImageButton[@content-desc='Navigate up']")
+    private ExtendedWebElement navigateBtn;
 
     @FindBy(id = "editText2")
     private ExtendedWebElement emailField;
@@ -41,6 +44,7 @@ public class CarinaUIElementsPage extends CarinaUIElementsPageBase implements IC
 
     @FindBy(id = "com.solvd.carinademoapplication:id/progressBar2")
     private ExtendedWebElement progressBar;
+
     @FindBy(id = "com.solvd.carinademoapplication:id/switch1")
     private ExtendedWebElement switchBtn;
 
@@ -110,12 +114,22 @@ public class CarinaUIElementsPage extends CarinaUIElementsPageBase implements IC
 
     @Override
     public boolean isProgressBarPresent() {
-        return progressBar.isElementPresent(FIVE_SECONDS);
+        return progressBar.isElementPresent(THREE_SECONDS);
+    }
+
+    @Override
+    public void clickOnProgressbar() {
+        progressBar.click();
     }
 
     @Override
     public boolean isSwitchBtnPresent() {
-        return switchBtn.isElementPresent(FIVE_SECONDS);
+        return switchBtn.isElementPresent(THREE_SECONDS);
+    }
+
+    @Override
+    public void clickOnSwitchBtn() {
+        switchBtn.click();
     }
 
     @Override
@@ -124,13 +138,49 @@ public class CarinaUIElementsPage extends CarinaUIElementsPageBase implements IC
     }
 
     @Override
-    public void swipeToProgressBar() {
+    public void swipeToSwitchBtn() {
         swipe(switchBtn, container, 10);
     }
+
     @Override
-    public void swipeToFemaleRadioButton() {
-        swipe(femaleRadioButton, container, 10);
+    public boolean isFemaleRadioBtnPresent() {
+        return femaleRadioButton.isElementPresent(THREE_SECONDS);
     }
 
+    @Override
+    public void registrationOnUIElementsPage() {
+        String text = "Ukraine";
+        String email = "ukraine@isfree.com";
+        String date = "02/24/2021";
+        typeText(text);
+        typeEmail(email);
+        typeDate(date);
+        swipe(switchBtn, container, 10);
+        checkCopy();
+        clickOnFemaleRadioButton();
+        clickOnProgressbar();
+        clickOnFemaleRadioButton();
+        clickOnSwitchBtn();
+    }
 
+    @Override
+    public boolean isTextFieldPresent() {
+        return textField.isElementPresent(THREE_SECONDS);
+    }
+
+    @Override
+    public boolean isPageOpened() {
+        return isTextFieldPresent();
+    }
+
+    @Override
+    public boolean isPageStillOpened() {
+        return isSwitchBtnPresent() && isProgressBarPresent();
+    }
+
+    @Override
+    public ViewBurgerMenuPageBase openBurgerMenu() {
+        navigateBtn.click(ONE_SECOND);
+        return initPage(getDriver(), ViewBurgerMenuPageBase.class);
+    }
 }

@@ -37,12 +37,23 @@ public abstract class CarinaUIElementsPageBase extends AbstractPage {
 
     public abstract boolean isProgressBarPresent();
 
-    public abstract void swipeToFemaleRadioButton();
+    public abstract void swipeToSwitchBtn();
 
     public abstract boolean isSwitchBtnPresent();
 
-    public abstract void swipeToProgressBar();
+    public abstract boolean isFemaleRadioBtnPresent();
 
+    public abstract void registrationOnUIElementsPage();
 
+    public abstract void clickOnSwitchBtn();
 
-    }
+    public abstract void clickOnProgressbar();
+
+    public abstract ViewBurgerMenuPageBase openBurgerMenu();
+
+    public abstract boolean isTextFieldPresent();
+
+    public abstract boolean isPageOpened();
+
+    public abstract boolean isPageStillOpened();
+}

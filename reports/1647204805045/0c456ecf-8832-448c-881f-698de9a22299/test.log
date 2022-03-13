@@ -1,0 +1,29 @@
+[2022-03-13 08:53:26] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-13 08:53:26] [1] [INFO] TEST [igorcarinademo - validationOnUiElementsPageTest] STARTED at [22:53:26 2022-03-13]
+[2022-03-13 08:54:04] [1] [INFO] PASS: element 'nextBtn' is clicked.
+[2022-03-13 08:54:08] [1] [INFO] PASS: keys cleared in element 'nameInputField'.
+[2022-03-13 08:54:10] [1] [INFO] PASS: keys 'qwerty' are sent to element 'nameInputField'.
+[2022-03-13 08:54:14] [1] [INFO] PASS: keys cleared in element 'passwordInputField'.
+[2022-03-13 08:54:16] [1] [INFO] PASS: keys '123456' are sent to element 'passwordInputField'.
+[2022-03-13 08:54:18] [1] [INFO] PASS: element 'maleRadioBtn' is clicked.
+[2022-03-13 08:54:20] [1] [INFO] PASS: element 'privacyPolicyCheckbox' is clicked.
+[2022-03-13 08:54:22] [1] [INFO] PASS: element 'loginBtn' is clicked.
+[2022-03-13 08:54:28] [1] [INFO] PASS: element 'leftMenuButton' is clicked.
+[2022-03-13 08:54:31] [1] [INFO] PASS: element 'uiElementsLink' is clicked.
+[2022-03-13 08:54:33] [1] [INFO] PASS: keys cleared in element 'textField'.
+[2022-03-13 08:54:35] [1] [INFO] PASS: keys 'no war' are sent to element 'textField'.
+[2022-03-13 08:54:36] [1] [INFO] PASS: keys cleared in element 'emailField'.
+[2022-03-13 08:54:37] [1] [INFO] PASS: keys 'nowar@email.com' are sent to element 'emailField'.
+[2022-03-13 08:54:39] [1] [INFO] PASS: keys cleared in element 'dateField'.
+[2022-03-13 08:54:40] [1] [INFO] PASS: keys '28/02/2022' are sent to element 'dateField'.
+[2022-03-13 08:54:45] [1] [INFO] swiping to element: switchBtn (By.id: com.solvd.carinademoapplication:id/switch1)
+[2022-03-13 08:54:48] [1] [INFO] Swipe was executed. Attempts remain: 9
+[2022-03-13 08:54:54] [1] [INFO] Swipe was executed. Attempts remain: 8
+[2022-03-13 08:55:02] [1] [INFO] Swipe was executed. Attempts remain: 7
+[2022-03-13 08:55:08] [1] [INFO] Swipe was executed. Attempts remain: 6
+[2022-03-13 08:55:15] [1] [INFO] Swipe was executed. Attempts remain: 5
+[2022-03-13 08:55:15] [1] [INFO] Result: true
+[2022-03-13 08:55:16] [1] [INFO] PASS: element 'checkBoxButton' is clicked.
+[2022-03-13 08:55:18] [1] [INFO] PASS: element 'femaleRadioButton' is clicked.
+[2022-03-13 08:55:19] [1] [INFO] PASS: element 'otherRadioButton' is clicked.
+[2022-03-13 08:55:22] [1] [INFO] TEST [igorcarinademo - validationOnUiElementsPageTest] PASSED at [22:55:22 2022-03-13]

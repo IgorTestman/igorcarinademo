@@ -16,9 +16,13 @@ public abstract class CarinaHomePageBase extends AbstractPage {
     public abstract CarinaMapsPageBase navigateToMapPage();
 
     public abstract CarinaUIElementsPageBase navigateToUIElementsPage();
+
     public abstract CarinaWebViewPageBase navigateToUserPage();
+
     public abstract boolean isPageOpened();
+
     public abstract String isEnumElementPresent();
 
+    public abstract ViewBurgerMenuPageBase openBurgerMenu();
 }
 

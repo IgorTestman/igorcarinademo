@@ -5,14 +5,14 @@ import com.qaprosoft.carina.core.foundation.utils.mobile.IMobileUtils;
 import com.qaprosoft.carina.core.foundation.utils.ownership.MethodOwner;
 import com.qaprosoft.carina.igor.common.LoginPageUiBase;
 import com.qaprosoft.carina.igor.common.StartPageBase;
-import com.qaprosoft.carina.igor.utils.IConstants;
+import com.qaprosoft.carina.igor.utils.TextConstants;
+import com.qaprosoft.carina.igor.utils.TimeConstants;
 import com.zebrunner.agent.core.annotation.TestLabel;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-    public class HomePageTest implements IAbstractTest, IMobileUtils, IConstants {
-
+    public class HomePageTest implements IAbstractTest, IMobileUtils, TextConstants, TimeConstants {
 
         @Test()
         @MethodOwner(owner = "IgorB")
@@ -29,7 +29,5 @@ import org.testng.asserts.SoftAssert;
             Assert.assertTrue(loginPageUiBase.isPageOpened(), "Login page isn't opened");
 
             softAssert.assertAll();
-
         }
-
 }

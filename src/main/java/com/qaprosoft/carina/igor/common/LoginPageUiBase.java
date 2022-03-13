@@ -1,10 +1,10 @@
 package com.qaprosoft.carina.igor.common;
 
 import com.qaprosoft.carina.core.gui.AbstractPage;
-import com.qaprosoft.carina.igor.utils.IConstants;
+import com.qaprosoft.carina.igor.utils.TextConstants;
 import org.openqa.selenium.WebDriver;
 
-public abstract class LoginPageUiBase  extends AbstractPage implements IConstants {
+public abstract class LoginPageUiBase  extends AbstractPage implements TextConstants {
 
     public LoginPageUiBase(WebDriver driver) {
         super(driver);
@@ -39,7 +39,9 @@ public abstract class LoginPageUiBase  extends AbstractPage implements IConstant
     public abstract CarinaHomePageBase clickSignUpBtn();
 
     public abstract void clickOnBackBtn();
+
     public abstract CarinaHomePageBase login();
+
     public abstract String getLogoText();
 
     public abstract boolean signUpBtnIsClickable();
@@ -59,8 +61,6 @@ public abstract class LoginPageUiBase  extends AbstractPage implements IConstant
     public abstract String getPrivacyPoliceCheckBoxText();
 
     public abstract String getSignUpBtnText();
-
-
-    }
+}
 
 

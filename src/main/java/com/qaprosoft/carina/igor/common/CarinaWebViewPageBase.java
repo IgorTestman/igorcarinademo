@@ -12,18 +12,32 @@ public abstract class CarinaWebViewPageBase extends AbstractPage {
     public abstract CarinaContactUsPageBase goToContactUsPage();
 
     public abstract boolean isUserAvatarPresent();
+
     public abstract boolean isUserNamePresent();
+
     public abstract boolean isUserStatusPresent();
-    public abstract  String getUserNameText();
+
+    public abstract String getUserNameText();
+
     public abstract String getUserStatusText();
+
     public abstract boolean isNavigateBtnPresent();
+
     public abstract boolean isImageAnimationPresent();
+
     public abstract boolean isBurgerMenuBtnPresent();
+
     public abstract boolean isCarinaLogoPresent();
+
     public abstract boolean isReadOnGitHubBtnPresent();
+
     public abstract void clickOnBurgerMenuBtn();
+
     public abstract void swipeToReadOnGitHubBtn();
+
     public abstract boolean isContactsPageOpened();
+
     public abstract void clickOnReadOnGitHubBtn();
 
+    public abstract ViewBurgerMenuPageBase openBurgerMenu();
 }

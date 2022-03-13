@@ -20,5 +20,4 @@ public abstract class CarinaContactUsPageBase extends AbstractPage {
     public abstract boolean isErrorMessagePresent();
 
     public abstract boolean isRecaptchaPresent();
-
 }

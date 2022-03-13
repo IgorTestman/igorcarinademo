@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3a2c854f-bc54-4948-9ad7-9b67660b3d1b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="26Fhm9VBo5WJ3YjB8oUunB0O2JM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qaprosoft.carina.igor.utils" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.CarinaPageTest.validationOnWebViewPageTest">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarinaPageTest.validationAllUiElementsPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="carina-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qaprosoft.carina.igor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qaprosoft.carina.igor" />
+      <option name="MAIN_CLASS_NAME" value="com.qaprosoft.carina.igor.CarinaPageTest" />
+      <option name="METHOD_NAME" value="validationAllUiElementsPageTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarinaPageTest.validationOnUiElementsPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="carina-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qaprosoft.carina.igor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qaprosoft.carina.igor" />
+      <option name="MAIN_CLASS_NAME" value="com.qaprosoft.carina.igor.CarinaPageTest" />
+      <option name="METHOD_NAME" value="validationOnUiElementsPageTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarinaPageTest.validationOnWebViewPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="carina-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qaprosoft.carina.igor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qaprosoft.carina.igor" />
+      <option name="MAIN_CLASS_NAME" value="com.qaprosoft.carina.igor.CarinaPageTest" />
+      <option name="METHOD_NAME" value="validationOnWebViewPageTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarinaPageTest.validationUiElementsOnChartPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="carina-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qaprosoft.carina.igor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qaprosoft.carina.igor" />
+      <option name="MAIN_CLASS_NAME" value="com.qaprosoft.carina.igor.CarinaPageTest" />
+      <option name="METHOD_NAME" value="validationUiElementsOnChartPageTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarinaPageTest.validationUiElementsOnUserProfilePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="carina-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qaprosoft.carina.igor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qaprosoft.carina.igor" />
+      <option name="MAIN_CLASS_NAME" value="com.qaprosoft.carina.igor.CarinaPageTest" />
+      <option name="METHOD_NAME" value="validationUiElementsOnUserProfilePageTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.CarinaPageTest.validationOnWebViewPageTest" />
+        <item itemvalue="TestNG.CarinaPageTest.validationAllUiElementsPageTest" />
+        <item itemvalue="TestNG.CarinaPageTest.validationUiElementsOnUserProfilePageTest" />
+        <item itemvalue="TestNG.CarinaPageTest.validationOnUiElementsPageTest" />
+        <item itemvalue="TestNG.CarinaPageTest.validationUiElementsOnChartPageTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a2c854f-bc54-4948-9ad7-9b67660b3d1b" name="Changes" comment="" />
+      <created>1647025398667</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647025398667</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

@@ -1,4 +1,0 @@
-[2022-03-04 12:54:19] [19] [WARN] Reporting disabled: using no op test run registrar
-[2022-03-04 12:54:19] [19] [INFO] TEST [Mobile test Home Page on Android  - validationUiElementsOnHomePageTest] STARTED at [14:54:19 2022-03-04]
-[2022-03-04 12:54:34] [19] [INFO] PASS: element 'nextBtn' is clicked.
-[2022-03-04 12:54:37] [19] [INFO] TEST [Mobile test Home Page on Android  - validationUiElementsOnHomePageTest] PASSED at [14:54:37 2022-03-04]
